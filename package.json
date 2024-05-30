@@ -1,0 +1,17 @@
+{
+  "name": "keepthinking",
+  "version": "1.0.0",
+  "description": "Front-end test",
+  "public": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Doherty",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

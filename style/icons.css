@@ -1,0 +1,41 @@
+.icon {
+  display: inline-block;
+}
+
+.arrow-forward-outline {
+  background-image: url('../img/icons/arrow-forward-outline.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.close {
+  background-image: url('../img/icons/close.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.facebook-outline {
+  background-image: url('../img/icons/facebook-outline.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.menu-outline {
+  background-image: url('../img/icons/menu-outline.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.search-outline {
+  background-image: url('../img/icons/search-outline.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.twitter-outline {
+  background-image: url('../img/icons/twitter-outline.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

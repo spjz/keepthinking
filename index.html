@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries" type="application/javascript"></script>
+  <script src="scripts/tailwind.config.js" type="application/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <link rel="stylesheet" href="style/tailwind.config.css" type="text/tailwindcss"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style/swiper.css" type="text/css"/>
+
+  <link rel="stylesheet" href="style/icons.css" type="text/css"/>
+
+  <title>Keepthinking Front-end Demo</title>
+</head>
+
+<body class="h-full w-full">
+
+  <nav class="w-full px-6 pt-6">
+    <div class="flex flex-row justify-between">
+      <div>
+        <h1 class="bold uppercase font-display text-4xl">Art Gallery</h1>
+      </div>
+      <div class="flex flex-row">
+        <button>
+          <i class="icon size-8 search-outline"></i>
+        </button>
+        <button>
+          <i class="icon size-8 menu-outline"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="w-full px-6">
+
+    <!-- Gallery -->
+    <section class="my-12 py-6 border-t-2 border-t-gray-200">
+      <div class="swiper relative">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="h-96 w-full bg-cover bg-center bg-[url('img/image.jpg')]"></div>
+            <div class="py-4">
+                <span>Anselm Kiefer: Walhalla</span>
+                <span>Until 12 February 2017, London</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-96 w-full bg-cover bg-center bg-[url('img/image.jpg')]"></div>
+            <div class="py-4">
+              <span>Anselm Kiefer: Walhalla</span>
+              <span>Until 12 February 2017, London</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-96 w-full bg-cover bg-center bg-[url('img/image.jpg')]"></div>
+            <div class="py-4">
+              <span>Anselm Kiefer: Walhalla</span>
+              <span>Until 12 February 2017, London</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="my-12 py-6 border-t-2 border-t-gray-200">
+      <div class="w-full flex flex-row items-center justify-between pb-4">
+        <h3 class="font-bold text-2xl">News &amp; Events</h3>
+        <a href="#" title="View all" class="flex flex-row items-center">
+          <span class="pr-1">View all</span>
+          <i class="icon size-4 arrow-forward-outline"></i>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4">
+        <div class="py-2">
+          <div class="w-full h-64 bg-no-repeat bg-cover bg-center bg-[url('img/image.jpg')]"></div>
+          <p class="py-2 font-bold">Exhibition: He Xiangyu monograph released by Distanz</p>
+          <p class="py-1">From March 2016</p>
+          <p class="py-1">He Xiangyu and Liu Wei are among 74 international artists from 33 countries chosen to feature in the Yinchuan Biennale 2016</p>
+        </div>
+        <div class="py-2">
+          <div class="w-full h-64 bg-no-repeat bg-cover bg-center bg-[url('img/image.jpg')]"></div>
+          <p class="py-2 font-bold">Exhibition: Runa islam at SFMOMA, San Francisco</p>
+          <p class="py-1">From March 2016</p>
+          <p class="py-1">'Verso', SFMOMA's solo presentation of Bangladeshi-born British artist Runa Islam, features the US premiere of Cabinet of Prototypes (2009-10)</p>
+        </div>
+        <div class="py-2">
+          <div class="w-full h-64 bg-no-repeat bg-cover bg-center bg-[url('img/image.jpg')]"></div>
+          <p class="py-2 font-bold">Preview: White Cube Mason's Yard</p>
+          <p class="py-1">19 January 2017, 6 to 8pm</p>
+          <p class="py-1">Join us at Mason's Yard, London flr the preview of the new Park Seo-Bo exhibition curated by Katherine Kostyal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Media -->
+    <section class="my-12 py-6 border-t-2 border-t-gray-200">
+      <div class="w-full flex flex-row items-center justify-between pb-4">
+        <h3 class="font-bold text-2xl">Channel</h3>
+        <a href="#" title="View all" class="flex flex-row items-center">
+          <span class="pr-1">View all</span>
+          <i class="icon size-4 arrow-forward-outline"></i>
+        </a>
+      </div>
+      <div>
+        <video></video>
+        <div>
+          <span class="font-bold">Anselm Kiefer in conversation with Tim Marlow in the Auditorium</span>
+          <p>In this film Anselm Kiefer discusses his work and his exhibition 'Walhalla' at White Cube Bermondsey with Tim Marlow.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- List -->
+    <section class="my-12 py-6 border-t-2 border-t-gray-200">
+      <div class="w-full flex flex-row items-center justify-between pb-4">
+        <h3 class="font-bold text-2xl">Artists</h3>
+      </div>
+      <div class="w-full flex flex-row items-start">
+        <ul class="w-auto flex-grow flex-col flex-wrap columns-3">
+          <li>Franz Ackermann</li>
+          <li>Etel Adnan</li>
+          <li>Darren Almond</li>
+          <li>Ellen Altfest</li>
+          <li>Michael Armitage</li>
+          <li>Miroslaw Balka</li>
+          <li>Georg Baselitz</li>
+          <li>Larry Bell</li>
+          <li>Jake &amp; Dinos Chapman</li>
+          <li>Chuck Close</li>
+          <li>Gregory Crewdson</li>
+          <li>Tracey Emin</li>
+          <li>Katharina Fritsch</li>
+          <li>Theaster Gates</li>
+          <li>Gilbert &amp; George</li>
+          <li>Antony Gormley</li>
+          <li>Andreas Gursky</li>
+          <li>David Hammons</li>
+          <li>Mona Hatoum</li>
+          <li>He Xiangyu</li>
+          <li>Damien Hirst</li>
+          <li>Robert Irwin</li>
+          <li>Runa Islam</li>
+          <li>Sergej Jensen</li>
+          <li>Anselm Kiefer</li>
+          <li>Rachel Kneebone</li>
+          <li>Imi Knoebel</li>
+          <li>Elad Lassry</li>
+          <li>Liza Lou</li>
+          <li>Jac Leirner</li>
+          <li>Liu Wei</li>
+          <li>Christian Marclay</li>
+          <li>Josiah McElhenv</li>
+          <li>Julie Mehretu</li>
+          <li>Beatriz Milhazes</li>
+          <li>Harland Miller</li>
+          <li>Sarah Morris</li>
+          <li>Gabriel Orozco</li>
+          <li>Damián Ortega</li>
+          <li>Virginia Overton</li>
+          <li>Eddie Peake</li>
+          <li>Magnus Plessen</li>
+          <li>Jessica Rankin</li>
+          <li>Christian Rosa</li>
+          <li>Doris Salcedo</li>
+          <li>Raqib Shaw</li>
+          <li>Haim Steinbach</li>
+          <li>Sam Tavlor-Johnson</li>
+          <li>Fred Tomaselli</li>
+          <li>Jeff Wall</li>
+          <li>Cerith Wyn Evans</li>
+        </ul>
+
+        <div class="size-64 bg-no-repeat bg-cover bg-center bg-[url('img/image.jpg')]"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-700 p-6">
+    <nav class="flex flex-row justify-between text-white text-2xl font-bold py-2">
+      <div class="flex flex-row">
+        <a href="#">Newsletter</a>
+        <a href="#">Contact</a>
+        <a href="#">Press room</a>
+      </div>
+      <div class="flex flex-row">
+        <a href="#">
+          <i class="icon size-8 facebook-outline"></i>
+        </a>
+        <a href="#">
+          <i class="icon size-8 twitter-outline"></i>
+        </a>
+      </div>
+    </nav>
+    <div class="flex flex-col border-t-2 border-t-gray-300 text-gray-300 text-2xl py-2">
+      <span class="py-1">Art Gallery</span>
+      <span class="py-1">38-40 Southwark Street</span>
+      <span class="py-1">London SE1 1UN</span>
+      <span class="py-1">Telephone <a href="tel:+442074905337">+44 20 74905337</a></span>
+    </div>
+    <div class="flex flex-col border-t-2 border-t-gray-300 text-gray-400 py-2">
+      <span class="py-1">&copy; EC1 Gallery</span>
+    </div>
+  </footer>
+
+  <script src="scripts/swiper.js" type="application/javascript"></script>
+</body>
+</html>

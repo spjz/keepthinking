@@ -1,0 +1,22 @@
+@layer utilities {
+    .content-auto {
+        content-visibility: auto;
+    }
+}
+@layer base {
+    @font-face {
+        font-family: 'DINPro Bold';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/fonts/DINPro Bold.otf') format('otf');
+    }
+
+    @font-face {
+        font-family: 'DINPro Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/fonts/DINPro Regular.otf') format('otf');
+    }
+}
